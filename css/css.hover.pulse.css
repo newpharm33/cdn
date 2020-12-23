@@ -1,0 +1,27 @@
+@keyframes hoverpulse {
+/*   Outward Pulse */
+  25% {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    transform-origin: center;
+  }
+/*   Inward Pulse */
+  75% {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    transform-origin: center;
+  }
+}
+
+ .hoverpulse:hover {
+  -webkit-animation-name: hoverpulse;
+  animation-name: hoverpulse;
+  -webkit-animation-duration: .4s;
+  animation-duration: .4s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1; 
+}  
