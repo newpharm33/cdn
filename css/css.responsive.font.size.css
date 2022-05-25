@@ -1,4 +1,0 @@
-.text-autowidth {
-  font-size: min(max(10px, calc(0.625rem + ((1vw - 3.2px) * 2.5))), 14px) !important;
-  min-height: 0vw !important;
-}

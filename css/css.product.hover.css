@@ -1,9 +1,0 @@
-.JT01 img, .JT02 img, .JT03 img, .JT04 img, .JT05 img, .JT06 img {
-	transition: all 0.3s ease 0s;
-	transform-origin: center center;
-	pointer-events: none;
-}
-.JT01:hover img, .JT02:hover img, .JT03:hover img, .JT04:hover img, .JT05:hover img, .JT06:hover img {
-	transform: scale(1.3);
-
-}
